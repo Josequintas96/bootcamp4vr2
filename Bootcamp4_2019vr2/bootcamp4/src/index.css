@@ -1,0 +1,200 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/* ##### general ##### */
+* {
+	box-sizing: border-box;
+}
+main {
+	padding: 0 2rem;
+}
+
+/* ##### Search ##### */
+header {
+	background: #3498db;
+	margin-bottom: 2rem;
+}
+
+input[type='text'] {
+	margin: 1rem;
+	background: #fff;
+	font-size: 1.3rem;
+	border: none;
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	padding: 0 2rem;
+	width: calc(100% - 2rem);
+	height: 4rem;
+}
+input[type='text'].dialog
+{
+	margin: 0.5rem;
+	height: 2rem;
+}
+input[type='text'].dialog2
+{
+	margin: 0.5rem;
+	display: inline;
+	height: 2rem;
+}
+
+/* ##### NamesList ##### */
+.table-striped\ table-hover
+{
+	border: 1px solid black;
+}
+
+tr {
+	padding: 0;
+}
+th {
+	position: left;
+	list-style: none;
+	padding: 0.25rem 0.75rem;
+	margin: 2px;
+	border-radius: 3px;
+	
+}
+td:hover {
+	position: left;
+	cursor: pointer;
+	background-color: #ddd;
+	border: 1px solid rgb(197, 57, 57);
+}
+
+/* ##### Columns ##### */
+.column1 {
+	float: left;
+	width: 50%;
+	padding: 8px;
+	display: inline-block;
+	/* background-color: #ccdef9; */
+	
+}
+
+
+.column2 {
+	/* float: left; */
+	width: 50%;
+	padding: 17px;
+	display: inline-block;
+	background-color: #ccdef9;
+}
+
+.column2\.5 {
+	/* float: left; */
+	width: 50%;
+	padding: 17px;
+	display: inline-block;
+}
+
+.column3 {
+	/* float: left; */
+	width: 50%;
+	padding: 17px;
+	display: inline-block;
+	font-size: 1rem;
+	background-color: rgb(233, 123, 123);
+}
+
+/* .column2:hover
+{
+	position: center;
+	cursor: context-menu;
+	background-color: rgb(224, 167, 167);
+	color: rgb(18, 116, 182);
+	text-align: center;
+} */
+
+/* ##### Rows ##### */
+.row {
+	margin: 1rem;
+}
+
+.row:after {
+	padding: 1 0rem;
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.tableWrapper {
+	max-height: 800px;
+	overflow: auto;
+	scroll-behavior: smooth;
+}
+
+/* ##### Footer ##### */
+.credit {
+	padding: 1rem 0;
+	color: #b3b3b3;
+}
+.credit a {
+	color: #3498bb;
+}
+button {
+	background: #d7d7d7;
+	color: #3b3b3b;
+	padding: 0.6rem 1rem;
+	font-size: 0.8rem;
+	border: solid 1px #c7c7c7;
+	margin: 1rem 0;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	outline: none;
+}
+button:hover {
+	background: #ddd;
+}
+
+.codeT
+{
+	background: #59c270;
+	text-align: center;
+}
+
+.nameT
+{
+	background:  #59bbc2;
+	padding: 4px;	
+}
+
+div.option3
+{
+	color: black
+}
+
+
+/* ##### Buttons ##### */
+.button_to_remove
+{
+	float: right;
+	background-position: right;
+}
+
+.button_to_add
+{
+	float: left;
+	background-position: left;
+	background-color: white;
+	margin: 0.1rem;
+	font-size: 0.7rem;
+	border: black;
+	/* box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3); */
+	border-radius: 2px;
+	padding: 2px;
+	width: calc(25% - 2rem);
+	height: 1rem;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+input[type='reset'].resetA
+{
+	display: inline-block;
+}
+
+/* ##### Input ##### */
